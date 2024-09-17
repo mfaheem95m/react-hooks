@@ -1,0 +1,65 @@
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .layout-header {
+    background: #282c34;
+    padding: 1rem;
+  }
+  
+  .layout-header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .layout-header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  .layout-header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .layout-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 1rem;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .layout-main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .layout-footer {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

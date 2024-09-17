@@ -1,17 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+import AppRoutes from './Routes';
 import './App.css';
+import Layout from './layout/Layout';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         React Hooks Documentation
-        </p>
-       
-      </header>
-    </div>
+    <Router>
+      <Layout>
+        <AppRoutes />
+      </Layout>
+    </Router>
   );
 }
 
