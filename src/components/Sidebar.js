@@ -15,6 +15,9 @@ function Sidebar() {
                     <li>
                         <Link to="/use-effect">useEffect</Link>
                     </li>
+                    <li>
+                        <Link to="/use-callback">useCallback</Link>
+                    </li>
                 </ul>
             </nav>
         </>
